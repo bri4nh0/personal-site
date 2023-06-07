@@ -1,0 +1,67 @@
+body {
+    margin:0;
+}
+.top-container {
+    background-color:#213555;
+}
+.middle-container {
+    background-color:#D8C4B6;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+.bottom-container {
+    background-color:#213555;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+.firstcloud {
+    position: relative;
+}
+.mypic {
+    height:400px;
+    border-radius: 50%;
+    padding-bottom:25px;
+}
+.top-container {
+    font-family: Montserrat;
+    text-align: center;
+    color:#4F709C;
+}
+.middle-container > h2{
+    font-family: Montserrat;
+    text-align: center;
+    color:#F5EFE7;
+}
+.middle-container > p {
+    font-family: Montserrat;
+    text-align: center;
+    color:#F5EFE7;
+    text-justify: inter-word;
+}
+.middle-container > a{
+    font-family: Montserrat;
+    display: flex;
+    justify-content: center;
+    color:#F5EFE7;
+}
+.middle-container > a:hover{
+    color:#4F709C
+}
+.grid-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.controller {
+    height:150px;
+}
+.bubbletea {
+    height:150px;
+}
+.weightlift {
+    height: 150px;
+}
+.bottom-container > a > img{
+    height: 50px;
+    padding: 20px;
+}
